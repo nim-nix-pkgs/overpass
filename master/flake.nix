@@ -11,6 +11,7 @@
   inputs.src-overpass-master.ref   = "refs/heads/master";
   inputs.src-overpass-master.owner = "juancarlospaco";
   inputs.src-overpass-master.repo  = "nim-overpass";
+  inputs.src-overpass-master.dir   = "";
   inputs.src-overpass-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
